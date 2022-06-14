@@ -655,14 +655,17 @@ a, svg{
     margin-top: 74px;
 }
 .partners__item{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 148px;
-    padding: 16px;
-    margin-bottom: 16px;
-    background-color: #ffffff;
-    border: 2px solid #ffffff;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    min-height: 198px; 
+    padding: 16px; 
+    margin-bottom: 16px; 
+    background-color: #ffffff; 
+    border: 2px solid #ffffff; 
+}
+.partners__item img{ 
+    max-height: 160px; 
 }
 .partners__item:hover{
     border: 2px solid #000000;
