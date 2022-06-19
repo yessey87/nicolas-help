@@ -644,6 +644,21 @@ a, svg{
     background-color: #000000;
 }
 
+.show-more {
+    /*   width: 690px;  */
+      color: #777; 
+      position:relative; 
+      font-size: 12px; 
+      padding-top: 5px; 
+      height: 20px; 
+      text-align: center; 
+      background: #f1f1f1; 
+      cursor: pointer;
+    }
+show-more:hover { 
+        color: #1779dd;
+    }
+
 .partners{
     padding: 140px 0;
     color: #ffffff;

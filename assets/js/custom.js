@@ -95,9 +95,18 @@ $( document ).ready(function() {
   });
 
   $('.team__more').click(function (e) {
-    e.preventDefault();
-    $('.team-item:nth-child(6) ~ .team-item').css('display', 'flex');
-    $(this).remove();
+    let team_more_btn = document.getElementById("team_more");
+
+    if (team_more_btn.innerHTML === 'Показати всіх') {
+      $('.team-item:nth-child(6) ~ .team-item').css('display', 'flex');
+      team_more_btn.innerHTML = 'Скрыть';
+    }
+    else {
+      $('.team-item:nth-child(6) ~ .team-item').css('display', 'none');
+      team_more_btn.innerHTML = 'Показати всіх';
+      window.location = 'index.html#team'
+    }
+    
   });
 
   $('.js-copy').click(function () {
