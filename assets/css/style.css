@@ -422,8 +422,21 @@ a, svg{
     color: #ffffff;
     border: none;
 }
+.help__btn:link{
+    background-color: #3787FE;
+    text-decoration: none;
+}
+.help__btn:visited{
+    background-color: #3787FE;
+    text-decoration: none;
+}
 .help__btn:hover{
     background-color: #3787FE;
+    text-decoration: none;
+}
+.help__btn:active{
+    background-color: #3787FE;
+    text-decoration: none;
 }
 .help__box{
     padding: 54px 52px;
