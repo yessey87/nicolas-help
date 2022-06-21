@@ -757,10 +757,22 @@ show-more:hover {
     line-height: 32px;
     color: #000000;
 }
+.contacts-list__value:link{
+    /* color: #3787FE; */
+    text-decoration: none;
+}
+.contacts-list__value:visited{
+    color: #3787FE;
+    text-decoration: none;
+}
 .contacts-list__value:hover{
     color: #3787FE;
+    text-decoration: none;
 }
-
+.contacts-list__value:active{
+    color: #3787FE;
+    text-decoration: none;
+}
 .btn-send{
     background-color: #000000;
     color: #ffffff;
