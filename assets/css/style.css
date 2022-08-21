@@ -783,6 +783,17 @@ show-more:hover {
     background-color: #3787FE;
 }
 
+/* .image-more-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-more-link a{
+    color: #ffffff;
+    text-align: center;
+} */
+
 textarea {
     resize: none;
  }
